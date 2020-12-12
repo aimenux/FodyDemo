@@ -1,0 +1,9 @@
+{
+  "solution": {
+    "path": "FodyDemo.sln",
+    "projects": [
+      "MethodBoundaryAspect.Fody.App\\MethodBoundaryAspect.Fody.App.csproj",
+      "PropertyChanged.Fody.App\\PropertyChanged.Fody.App.csproj"
+    ]
+  }
+}
