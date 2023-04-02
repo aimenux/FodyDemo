@@ -1,16 +1,17 @@
 ﻿using System;
 
-namespace PropertyChanged.Fody.App
+namespace PropertyChanged.Fody.App;
+
+public static class Program
 {
-    public static class Program
+    public static void Main()
     {
-        public static void Main()
+        var _ = new Sample("John", "Wick")
         {
-            var sample = new Sample("John", "Wick");
-            sample.FirstName = "John";
-            sample.LastName = "Snow";
-            Console.WriteLine("\nPress any key to exit !");
-            Console.ReadKey();
-        }
+            FirstName = "Walter",
+            LastName = "White"
+        };
+        Console.WriteLine("\nPress any key to exit !");
+        Console.ReadKey();
     }
 }

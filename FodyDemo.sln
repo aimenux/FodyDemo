@@ -15,6 +15,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ToString.Fody.App", "ToStri
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PropertyChanged.Fody.App", "PropertyChanged.Fody.App\PropertyChanged.Fody.App.csproj", "{2B2B88CD-62E2-4251-A966-736B6899C946}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MethodTimer.Fody.App", "MethodTimer.Fody.App\MethodTimer.Fody.App.csproj", "{B91A9C5F-3D83-42AD-B1B4-63E1A1869013}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{2B2B88CD-62E2-4251-A966-736B6899C946}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2B2B88CD-62E2-4251-A966-736B6899C946}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2B2B88CD-62E2-4251-A966-736B6899C946}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B91A9C5F-3D83-42AD-B1B4-63E1A1869013}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B91A9C5F-3D83-42AD-B1B4-63E1A1869013}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B91A9C5F-3D83-42AD-B1B4-63E1A1869013}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B91A9C5F-3D83-42AD-B1B4-63E1A1869013}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
