@@ -1,4 +1,4 @@
-![.NET 5.0](https://github.com/aimenux/FodyDemo/workflows/.NET%205.0/badge.svg)
+[![.NET](https://github.com/aimenux/FodyDemo/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/aimenux/FodyDemo/actions/workflows/ci.yml)
 
 # FodyDemo
 ```
